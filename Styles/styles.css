@@ -12,7 +12,7 @@ body {
 }
 
 .main-container {
-  width: 70vw;
+  width: 60vw;
   background-color: whitesmoke;
   padding-left: 10px;
 }
@@ -29,18 +29,18 @@ h2 {
 }
 
 .photo-container {
-  width: 30vw;
+  width: 40vw;
 }
 
 img {
-  width: 30vw;
+  width: 40vw;
   height: 100vh;
 }
 
 input[type="submit"] {
   border: none;
   background-color: rgb(180, 158, 84);
-  width: 150px;
+  width: 180px;
   height: 40px;
   font-size: 1.1em;
   font-weight: 700;
@@ -58,7 +58,7 @@ form p {
   margin-left: var(--marginleft);
   font-size: 1.3rem;
   margin-bottom: 1.1em;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 fieldset {
@@ -77,13 +77,27 @@ label {
 }
 
 input {
-  border: gray solid 1px;
+  appearance: none;
+  border: rgb(182, 180, 180) solid 1px;
   height: 1.4em;
   font-size: 1em;
   border-radius: 2px;
+  color: rgb(105, 104, 104);
 }
 
 input:focus {
   appearance: none;
   border: rgb(180, 158, 84) solid 5px;
+}
+
+.login {
+  margin-top: 30px;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-left: var(--marginleft);
+}
+
+.login a {
+  color: rgb(180, 158, 84);
+  font-weight: 600;
 }

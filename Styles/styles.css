@@ -2,7 +2,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+:root {
+  --marginleft: 20px;
+}
 body {
   font-family: "Playfair Display", serif;
   display: flex;
@@ -12,6 +14,18 @@ body {
 .main-container {
   width: 70vw;
   background-color: whitesmoke;
+  padding-left: 10px;
+}
+
+h1 {
+  margin-left: var(--marginleft);
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 40px;
+  margin-left: var(--marginleft);
 }
 
 .photo-container {
@@ -33,8 +47,43 @@ input[type="submit"] {
   color: whitesmoke;
   border-radius: 4px;
   box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.2);
+  margin-top: 80px;
+  margin-left: var(--marginleft);
 }
 
 input[type="submit"]:active {
   transform: translateY(4px);
+}
+form p {
+  margin-left: var(--marginleft);
+  font-size: 1.3rem;
+  margin-bottom: 1.1em;
+  font-weight: 500;
+}
+
+fieldset {
+  border: none;
+  background: white;
+  display: flex;
+  gap: 50px;
+  padding-left: 20px;
+}
+label {
+  font-size: 1.2em;
+}
+input,
+label {
+  display: block;
+}
+
+input {
+  border: gray solid 1px;
+  height: 1.4em;
+  font-size: 1em;
+  border-radius: 2px;
+}
+
+input:focus {
+  appearance: none;
+  border: rgb(180, 158, 84) solid 5px;
 }

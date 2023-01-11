@@ -3,17 +3,17 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  height: 100vh;
 }
 
 body {
-  font-style: "Roboto Serif", sans-serif;
+  font-family: "Playfair Display", serif;
   display: flex;
+  height: 100vh;
 }
 
 .main-container {
   width: 70vw;
-  background-color: gray;
+  background-color: whitesmoke;
 }
 
 .photo-container {

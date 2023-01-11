@@ -7,10 +7,20 @@
 }
 
 body {
-  background-color: gray;
   font-style: "Roboto Serif", sans-serif;
+  display: flex;
 }
 
-p {
-  font-size: 20px;
+.main-container {
+  width: 70vw;
+  background-color: gray;
+}
+
+.photo-container {
+  width: 30vw;
+}
+
+img {
+  width: 30vw;
+  height: 100vh;
 }
